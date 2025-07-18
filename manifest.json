@@ -1,0 +1,11 @@
+{
+	"manifest_version": 3,
+	"name": "Read Later Popup",
+	"description": "Lists sites to read later about and remove once finished or no longer needed",
+	"version": "1.0",
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"host_permissions": ["https://*/*","http://*/*"],
+	"permissions": ["storage"]
+}
